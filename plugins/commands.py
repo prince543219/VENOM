@@ -30,7 +30,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url="https://t.me/+psqvv-KhRuEyZDY1"),
             InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
         ],[
             InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
@@ -51,7 +51,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('ᴍᴜsɪᴄ ɢʀᴏᴜᴘ', url="https://t.me/UmbrellaUCorp"),
+                InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url="https://t.me/+psqvv-KhRuEyZDY1"),
                 InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
@@ -61,13 +61,13 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+CQItwmO9k6kwMjRl")
+                InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url=GRP_LNK)
             ]]
         else:
             buttons = [[
                 InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('ᴍᴜsɪᴄ ɢʀᴏᴜᴘ', url="https://t.me/UmbrellaUCorp"),
+                InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url="https://t.me/+psqvv-KhRuEyZDY1"),
                 InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
@@ -75,7 +75,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+CQItwmO9k6kwMjRl")
+                InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url=GRP_LNK)
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -141,7 +141,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('ᴍᴜsɪᴄ ɢʀᴏᴜᴘ', url="https://t.me/UmbrellaUCorp"),
+                InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url="https://t.me/+psqvv-KhRuEyZDY1"),
                 InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
@@ -155,7 +155,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('ᴍᴜsɪᴄ ɢʀᴏᴜᴘ', url="https://t.me/UmbrellaUCorp"),
+                InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url="https://t.me/+psqvv-KhRuEyZDY1"),
                 InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
@@ -163,7 +163,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+CQItwmO9k6kwMjRl")
+                InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url=GRP_LNK)
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -198,7 +198,7 @@ async def start(client, message):
                 buttons = [[
                     InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('ᴍᴜsɪᴄ ɢʀᴏᴜᴘ', url="https://t.me/UmbrellaUCorp"),
+                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url="https://t.me/+psqvv-KhRuEyZDY1"),
                     InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
@@ -208,13 +208,13 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+CQItwmO9k6kwMjRl")
+                    InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url=GRP_LNK)
                 ]]
             else:
                 buttons = [[
                     InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('ᴍᴜsɪᴄ ɢʀᴏᴜᴘ', url="https://t.me/UmbrellaUCorp"),
+                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url="https://t.me/+psqvv-KhRuEyZDY1"),
                     InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
@@ -222,7 +222,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+CQItwmO9k6kwMjRl")
+                    InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url=GRP_LNK)
                 ]]
             if CLONE_MODE == True:
                 buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
