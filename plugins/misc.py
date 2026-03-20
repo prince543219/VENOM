@@ -13,7 +13,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQ
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
 
-@Client.on_message(filters.command('id'))
+@Client.on_message(filters.command('idDGFJKHGFDSFGHJGFDGHJKKHGFDS'))
 async def showid(client, message):
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
@@ -57,7 +57,7 @@ async def showid(client, message):
             quote=True
         )
 
-@Client.on_message(filters.command(["info"]))
+@Client.on_message(filters.command(["infoSDFGFASDGHJHGFDSDFGHJKJHGFDSDFGHJKJHGFDS"]))
 async def who_is(client, message):
     # https://github.com/SpEcHiDe/PyroGramBot/blob/master/pyrobot/plugins/admemes/whois.py#L19
     status_message = await message.reply_text(
