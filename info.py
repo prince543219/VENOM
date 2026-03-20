@@ -88,9 +88,9 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+CQItwmO9k6kwMjRl')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+UOZOeiGjoX9iMDZl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/moviiieeeesss')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'UmbrellaUCorp') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 't.me/+rFNNw-bfXw5kYjc1') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Ban6king9')
 
 # True Or False
